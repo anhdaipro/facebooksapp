@@ -1,0 +1,1 @@
+web: gunicorn facebooks.wsgi --log-file -
