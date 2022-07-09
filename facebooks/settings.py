@@ -167,10 +167,7 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': '3306',
         'USER': 'root',
-        'PASSWORD': 'anhdai',
-        'OPTIONS': {
-                'charset': 'utf8mb4',
-            }
+        'PASSWORD': 'anhdai'
     }
 }
 db_from_env = dj_database_url.config(conn_max_age=500)
