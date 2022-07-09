@@ -31,7 +31,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.1','localhost','facebooksweb.herokuapp.com']
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000','facebook-123.vercel.app'
+    'http://localhost:3000','facebook-123.vercel.app','http://localhost:3001'
 ]
 # Application definition
 CORS_ORIGIN_ALLOW_ALL = False
